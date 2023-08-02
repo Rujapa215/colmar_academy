@@ -1,3 +1,8 @@
+*{
+    font-family: 'Borel', cursive;
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Prompt', sans-serif;
+}
 /* navbar section */
 .nav-bar-pc{
     height: 64px;
@@ -50,18 +55,7 @@
     padding-bottom: 8px;
     width: 100%;
 }
-.info{
-    padding-top: 32px;
-    padding-left: 24px;
-    padding-bottom: 32px;
-    display: flex;
-}
-.info-right{
-    width: 40%;
-}
-.info-right-pic{
-    height: auto;
-}
+
 
 /* course section */
 .card{
@@ -86,29 +80,68 @@
     padding-left: 72px; 
     padding-right: 72px;
 }
-/* info section */
 
-/* .information{
+/* thisis section */
+.thesis-card :hover{
+    background-color: rgb(169, 169, 170);
+}
+.thesis-card{
+    display: flex;
+    width: 65%;
+}
+.thesis-card img{
+    height: auto;
+    width: 35%;
+    padding-right: 16px;
+    padding-left: 16px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+.thesis-card-p{
+    width: 65%;
+}
+
+/* info section */
+.card-info{
+    width: 40%;
+    display:flex;
+
+}
+.card-info :hover{
+    background-color: rgb(169, 169, 170);
+}
+.info-right-pic{
+    height: auto;
+    width: 35%;
+    padding-left: 16px;
+    padding-top: 16px;
+    padding-right: 16px;
+}
+.card-info-p{
+    width: 65%;
+}
+.card-info a{
+    padding-top: 8%;
+}
+.card-info p{
+    padding-top: 8px;
+}
+.info{
     padding-top: 32px;
-    padding-bottom: 32px;
     padding-left: 24px;
+    padding-bottom: 32px;
+    width: 100%;
     display: flex;
 }
 .info-main{
     padding-right: 24px;
 }
-.info-main-pic{
-    width: 60%;
-    padding-bottom: 32px;
-
-}
-.info-list-pic{
-    height: auto;
-    width: 35%;
-}
-.info-list1{
-    display: flex;
-    width: 65%;
+/* footer */
+footer{
     padding-top: 16px;
-    padding-left: 16px;
-} */
+    padding-left: 24px;
+    border-top:1px solid;
+    border-color: lightgray;
+    display: flex;
+    justify-content: space-between;
+}
