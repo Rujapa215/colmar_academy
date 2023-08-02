@@ -107,8 +107,8 @@
     display:flex;
 
 }
-.card-info :hover{
-    background-color: rgb(169, 169, 170);
+.card-right-side :hover{
+    background-color: rgb(168, 166, 166);
 }
 .info-right-pic{
     height: auto;
