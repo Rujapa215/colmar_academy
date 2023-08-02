@@ -1,0 +1,114 @@
+/* navbar section */
+.nav-bar-pc{
+    height: 64px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+.nav-bar-pc a{
+    text-decoration: none;
+    float: right;
+}
+ .nav-bar-pc-right{
+    padding: 16px;
+    color: black;
+    float: left;
+
+}
+.nav-bar-pc .nav-bar-pc-ca{
+    font-size: 32px;
+    float: left;
+}
+.logo-pc{
+    height:70%;
+    float: left;
+}
+
+
+/* Hero section */
+
+.hero{
+    background-color: rgb(205, 200, 200);
+    padding-left: 24px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-right: 24px;
+    display: flex;
+    width: 100%;
+
+
+}
+.banner-photo{
+    width: 60%;
+    padding-right: 24px;
+}
+
+.button-banner{
+    text-align: center;
+    background-color: rgb(66, 66, 66);
+    color: white;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    width: 100%;
+}
+.info{
+    padding-top: 32px;
+    padding-left: 24px;
+    padding-bottom: 32px;
+    display: flex;
+}
+.info-right{
+    width: 40%;
+}
+.info-right-pic{
+    height: auto;
+}
+
+/* course section */
+.card{
+    background-color: white; 
+    width: 40%;
+    
+}
+.card-pic{
+    height: auto; 
+    display: block; 
+    object-fit: cover;
+     width: 100%;
+}
+.card-top{
+    display: flex;
+    padding-left: 72px; 
+    padding-right: 72px;
+}
+
+.card-botttom{
+    display: flex;
+    padding-left: 72px; 
+    padding-right: 72px;
+}
+/* info section */
+
+/* .information{
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-left: 24px;
+    display: flex;
+}
+.info-main{
+    padding-right: 24px;
+}
+.info-main-pic{
+    width: 60%;
+    padding-bottom: 32px;
+
+}
+.info-list-pic{
+    height: auto;
+    width: 35%;
+}
+.info-list1{
+    display: flex;
+    width: 65%;
+    padding-top: 16px;
+    padding-left: 16px;
+} */
